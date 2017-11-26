@@ -1,0 +1,58 @@
+.snippet {
+    border-bottom: 1px solid #F3F3F3;
+    padding-bottom: 1rem;
+}
+
+.snippet .title {
+    color: #6b5535;
+}
+
+.snippet .type {
+    height: 4.53rem;
+    max-width: 11rem;
+    width: 100%;
+    border-radius: 3rem;
+    padding: 0.53rem;
+    text-align: center;
+    color: #6b5535;
+}
+
+.snippet .type-small {
+    height: 1.53rem;
+    width: 100%;
+    border-radius: 3rem;
+    text-align: center;
+    color: #6b5535;
+}
+
+.snippet .quote {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.snippet .quote b {
+    font-weight: 400;
+    font-style: initial;
+}
+
+.snippet .more {
+    font-weight: 300;
+    font-size: 0.72rem;
+}
+
+.snippet .more a {
+    color: #6b5535;
+    cursor: pointer;
+}
+
+.bg-document {
+    background-color: #d1ffcc;
+}
+
+.bg-business {
+    background-color: #ffe3d2;
+}
+
+.bg-tech {
+    background-color: #feffc5;
+}
