@@ -30,7 +30,7 @@ export default class Search extends Component {
                     <input ref={q=>this.query=q} type="text" className="form-control" onKeyDown={this.keydown}/>
                     <span role="img" aria-label="search" className="input-group-addon">&#x1f50d;</span>
                 </div>
-                <button className="btn btn-dark" onClick={this.search}>Search</button>
+                <button className="btn btn-blue" onClick={this.search}>Search</button>
             </div>
         );
     }
@@ -42,7 +42,7 @@ export default class Search extends Component {
                 <span className="heading input-group-addon">Neuron</span>
                     <input ref={q=>this.query=q} type="text" className="form-control" onKeyDown={this.keydown}/>
                     <span className="input-group-button">
-                        <button className="btn btn-dark" onClick={this.search}>Search</button>
+                        <button className="btn btn-blue" onClick={this.search}>Search</button>
                     </span>
                 </div>
             </div>

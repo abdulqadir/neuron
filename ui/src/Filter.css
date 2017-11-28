@@ -4,4 +4,6 @@
 
 .filter label .badge {
     margin-left: 0.25rem;
+    background-color: #42ACDC;
+    color: white;
 }

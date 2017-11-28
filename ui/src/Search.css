@@ -24,6 +24,12 @@
     display: block;
 }
 
+.btn-blue {
+    background-color: #42ACDC;
+    border-color: #42ACDC;
+    color: #FAFAFF;
+}
+
 #searchbar {
     padding-top: 0rem;
 }
@@ -32,7 +38,7 @@
     font-family: 'Alegreya Sans SC';
     font-weight: 300;
     color: #535353;
-    background-color: floralwhite;
+    background-color: #e1f5fe;
 }
 
 #searchbar button.btn {

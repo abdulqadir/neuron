@@ -3,6 +3,7 @@ import './App.css';
 import Background from './Background';
 import Search from './Search';
 import Results from './Results';
+import About from './About';
 
 export default class App extends Component {
     constructor(props) {
@@ -37,7 +38,10 @@ export default class App extends Component {
                             <Results query={this.state.query} app={this}/>
                         </div>
                     ):(
-                        <Search type="center" app={this}/>
+                        <div>
+                            <Search type="center" app={this}/>
+                            <About />
+                        </div>
                     )
                     }
                 </div>

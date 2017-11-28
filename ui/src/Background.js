@@ -34,7 +34,7 @@ export default class Background extends Component {
         ctx.fillStyle = 'rgba(255,255,255,1)';
         ctx.fill();
         var canvasTexture = new THREE.CanvasTexture(textureCanvas);
-        var material = new THREE.SpriteMaterial({map: canvasTexture, color: '#EFEDE0', premultipliedAlpha: true});
+        var material = new THREE.SpriteMaterial({map: canvasTexture, color: '#E1F5FE', premultipliedAlpha: true});
         var pointCount = 1053;
         for (var i=0; i < pointCount; i++) {
             var point = new THREE.Sprite(material);
